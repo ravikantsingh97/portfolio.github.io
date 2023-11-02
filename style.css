@@ -38,8 +38,8 @@ nav {
 
 .logo {
     margin-top: 30px;
-    width: 180px;
-    height: 80px;
+    width: 200px;
+    height: 90px;
 }
 
 nav ul li {
@@ -125,6 +125,9 @@ nav ul li a:hover::after {
 }
 
 .tab-links {
+    background-color: #c438385f;
+    padding: 0 10px;
+    border-radius: 6px;
     margin-right: 50px;
     font-size: 18px;
     font-weight: 600;
