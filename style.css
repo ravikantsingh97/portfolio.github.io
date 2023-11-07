@@ -1,9 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    /* font-family: 'Bebas Neue', sans-serif; */
-    /* font-family: 'Josefin Sans', sans-serif; */
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
 
@@ -34,6 +32,8 @@ nav {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    
+
 }
 
 .logo {
@@ -89,6 +89,7 @@ nav ul li a:hover::after {
 
 /* -----------------about------------ */
 
+
 #about {
     padding: 80px 0;
     color: rgb(248, 248, 248);
@@ -105,8 +106,10 @@ nav ul li a:hover::after {
 }
 
 .about-col-1 img {
-    width: 100%;
+    width: 110%;
     border-radius: 15px;
+    /* background-color: #ffffff; */
+    
 }
 
 .about-col-2 {
@@ -117,6 +120,16 @@ nav ul li a:hover::after {
     font-size: 60px;
     font-weight: 600;
     color: #ffffff;
+}
+
+.abt-p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.abt-p span{
+    font-size: 22px;
+    color:rgb(172, 245, 249);
 }
 
 .tab-titles {
@@ -167,6 +180,13 @@ nav ul li a:hover::after {
 .tab-contents.active-tab {
     display: block;
 }
+
+#tech{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+
 
 /* ------------------services---------------------- */
 
@@ -223,7 +243,7 @@ nav ul li a:hover::after {
 
 .work-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
@@ -232,6 +252,16 @@ nav ul li a:hover::after {
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+}
+
+#portfolio .work-list .work{
+    display: none;
+}
+#portfolio .work-list .work:nth-child(1),
+#portfolio .work-list .work:nth-child(2),
+#portfolio .work-list .work:nth-child(3)
+{
+    display:inline-block;
 }
 
 .work img {
@@ -296,6 +326,7 @@ nav ul li a:hover::after {
     text-decoration: none;
     color: white;
     transition: background 0.5s;
+    cursor: pointer;
 }
 
 .btn:hover {
