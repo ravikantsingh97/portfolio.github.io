@@ -497,6 +497,17 @@ nav .fa-solid {
         width: 40vw;
         height: 20vw;
     }
+
+    #portfolio .work-list .work{
+        display: none;
+    }
+    #portfolio .work-list .work:nth-child(1),
+    #portfolio .work-list .work:nth-child(2),
+    #portfolio .work-list .work:nth-child(3)
+    {
+        display:inline-block;
+    }
+    
 }
 
 #msg {
